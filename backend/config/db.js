@@ -1,7 +1,7 @@
 import mongoose from 'mongoose';
 import 'dotenv/config';
 
-// MongoDB Atlas connection string
+// MongoDB Atlas connection strings
 
 const uri = process.env.MONGODB_URI;
 
