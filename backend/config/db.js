@@ -10,6 +10,7 @@ export const connectDB = async () => {
     await mongoose.connect(uri, {
       useNewUrlParser: true,
       useUnifiedTopology: true,
+      dbName: 'hunger-app',
     });
     console.log('Connected to MongoDB');
   } catch (err) {
