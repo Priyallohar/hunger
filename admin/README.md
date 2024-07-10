@@ -1,4 +1,4 @@
-The coconut Admin Dashboard is a tool that enables administrators to efficiently manage products and orders within the coconut food delivery application.
+The hunger Admin Dashboard is a tool that enables administrators to efficiently manage products and orders within the hunger food delivery application.
 
 ## Features
 
@@ -41,9 +41,6 @@ The coconut Admin Dashboard is a tool that enables administrators to efficiently
    ```sh
    npm install
    ```
-3. Create a `.env` file in the admin directory and add the backend URL:
-   ```env
-   VITE_API_URL=https://example.hostingsite.com
    ```
 4. Start the admin panel server:
    ```sh

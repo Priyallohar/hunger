@@ -1,6 +1,6 @@
 # Food Delivery App
 
-Coconut is a full-stack food delivery application built using the MERN (MongoDB, Express, React, Node.js) stack. The application allows users to browse a menu, place orders, and make payments seamlessly. Additionally, it provides an admin panel to manage products, orders, and other administrative tasks.
+Hunger is a comprehensive food delivery application developed with the MERN stack (MongoDB, Express, React, Node.js). The app enables users to browse menus, place orders, and make payments effortlessly. It also features an admin panel for managing products, orders, and other administrative functions.
 
 ## Features
 
@@ -37,18 +37,18 @@ Coconut is a full-stack food delivery application built using the MERN (MongoDB,
 
 To run the coconut Food Delivery App locally, follow these steps:
 
-1. Clone the repository: `git clone https://github.com/Prabodhann/coconut.git`
+1. Clone the repository: `git clone https://github.com/Priyallohar/hunger`
 
 2. Install dependencies for the front-end and back-end:
 
-- Front-end: `cd coconut/frontend && npm install`
-- Back-end: `cd coconut/backend && npm install`
+- Front-end: `cd hunger/frontend && npm install`
+- Back-end: `cd hunger/backend && npm install`
 
 3. Set up environment variables for the back-end (e.g., MongoDB connection string, Stripe API keys)
 4. Start the development servers:
 
-- Back-end: `npm start` (in the `coconut/backend` directory)
-- Front-end: `npm run dev` (in the `coconut/frontend` directory):
+- Back-end: `npm start` (in the `hunger/backend` directory)
+- Front-end: `npm run dev` (in the `hunger/frontend` directory):
 
 ### Frontend Setup
 
@@ -60,25 +60,21 @@ To run the coconut Food Delivery App locally, follow these steps:
    ```sh
    npm install
    ```
-3. Create a `.env` file in the frontend directory and add the backend URL:
-   ```env
-   VITE_API_URL="https://coconut-drab.vercel.app"
-   ```
 4. Start the frontend server:
    ```sh
    npm run dev
    ```
 
 ```
-- Admin-panel `npm run dev` (in the `coconut/admin` directory)
+- Admin-panel `npm run dev` (in the `hunger/admin` directory)
 ```
 
 ## Payment Integration
 
-Coconut integrates with the Stripe API for secure and reliable payment processing. During testing, you can use the following test card details:
+hunger integrates with the Stripe API to ensure secure and reliable payment processing. For testing, you can use the following test card details:
 
-- Card Number: `4000003560000008`
+- Card Number: `4242424242424242`
 - CVV: Any value
 - Expiry Date: Any future date
 
-Please note that these are test card details provided by Stripe for testing purposes only. Do not use real credit card information during testing.
+Please remember that these test card details are provided by Stripe solely for testing purposes. Do not use actual credit card information during testing.

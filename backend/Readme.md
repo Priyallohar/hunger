@@ -7,8 +7,8 @@ Coconut full stack backend
 1. Clone the repository
 
    ```sh
-   git clone  https://github.com/Prabodhann/coconut.git
-   cd yourproject
+   git clone  https://github.com/Priyallohar/hunger
+   cd hunger
    ```
 
 2. Install dependencies
@@ -32,7 +32,6 @@ Coconut full stack backend
 To run this project, you will need to add the following environment variables to your `.env` file:
 
 ```plaintext
-JWT_SECRET=your_jwt_secret
 STRIPE_SECRET_KEY=your_stripe_secret_key
 MONGODB_URI=your_mongodb_uri
 ```
