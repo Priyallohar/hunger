@@ -2,7 +2,7 @@ import orderModel from '../models/orderModel.js';
 import userModel from '../models/userModel.js';
 import Stripe from 'stripe';
 import "dotenv/config"
-const stripe = new Stripe(process.env.STRIPE_SECRET_KEY);
+const stripe = new Stripe("sk_test_51PaJspRqjZBLHzmAKG3BJvqr2VP14K8Qm6lBDQnD82EFLOmePEProe6LpoDqcwWzoyURcUPrXmgvUp4w1umMjqVx00PG1tFOrY");
 const placeOrder = async (req, res) => {
   try {
     const { userId, items, amount, address } = req.body;
